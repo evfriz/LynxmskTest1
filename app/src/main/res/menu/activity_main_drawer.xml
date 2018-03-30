@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_football"
+            android:icon="@drawable/png_football"
+            android:title="@string/football" />
+        <item
+            android:id="@+id/nav_hockey"
+            android:icon="@drawable/png_hockey"
+            android:title="@string/hockey" />
+        <item
+            android:id="@+id/nav_tennis"
+            android:icon="@drawable/png_tennis"
+            android:title="@string/tennis" />
+        <item
+            android:id="@+id/nav_basketball"
+            android:icon="@drawable/png_basketball"
+            android:title="@string/basketball" />
+        <item
+            android:id="@+id/nav_volleyball"
+            android:icon="@drawable/png_volleyball"
+            android:title="@string/volleyball" />
+        <item
+            android:id="@+id/nav_cybersport"
+            android:icon="@drawable/png_cybersport"
+            android:title="@string/cybersport" />
+    </group>
+
+</menu>
